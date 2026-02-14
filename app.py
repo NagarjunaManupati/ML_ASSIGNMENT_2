@@ -44,7 +44,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # Title and description
-st.title("🤖 Machine Learning Classification Models")
+st.title("💡 Machine Learning Classification Models")
 st.markdown("### Compare Multiple Classification Algorithms")
 st.markdown("---")
 
