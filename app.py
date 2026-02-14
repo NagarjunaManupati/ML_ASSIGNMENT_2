@@ -30,7 +30,7 @@ st.markdown("""
         padding: 2rem;
     }
     .stMetric {
-        background-color: #f0f2f6;
+        background-color: #1C0770;
         padding: 10px;
         border-radius: 5px;
     }
