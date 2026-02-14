@@ -26,19 +26,13 @@ st.set_page_config(
 # Custom CSS for better UI
 st.markdown("""
     <style>
-    /* Page background and main container */
-    body, .stApp, .main {
-        background-color: #f0f8ff; /* AliceBlue */
-    }
     .main {
         padding: 2rem;
     }
-    /* Metric card styling */
     .stMetric {
-        background-color: #ffffff;
+        background-color: #f0f2f6;
         padding: 10px;
-        border-radius: 8px;
-        box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+        border-radius: 5px;
     }
     h1 {
         color: #1f77b4;
