@@ -55,12 +55,12 @@ Attribute Information:
 
 | ML Model Name | Accuracy | AUC | Precision | Recall | F1 | MCC |
 |--------------|----------|-----|-----------|--------|-------|-----|
-| Logistic Regression | 0.8671 | 0.9317 | 0.8672 | 0.8671 | 0.8667 | 0.7306 |
-| Decision Tree | [0.XXXX] | [0.XXXX] | [0.XXXX] | [0.XXXX] | [0.XXXX] | [0.XXXX] |
-| kNN | [0.XXXX] | [0.XXXX] | [0.XXXX] | [0.XXXX] | [0.XXXX] | [0.XXXX] |
-| Naive Bayes | [0.XXXX] | [0.XXXX] | [0.XXXX] | [0.XXXX] | [0.XXXX] | [0.XXXX] |
-| Random Forest (Ensemble) | [0.XXXX] | [0.XXXX] | [0.XXXX] | [0.XXXX] | [0.XXXX] | [0.XXXX] |
-| XGBoost (Ensemble) | [0.XXXX] | [0.XXXX] | [0.XXXX] | [0.XXXX] | [0.XXXX] | [0.XXXX] |
+| Logistic Regression | 0.8859 | 0.9297 | 0.8872 | 0.8859 | 0.8852 | 0.7694 |
+| Decision Tree | 0.788 | 0.7813 | 0.788 | 0.788 | 0.7868 | 0.5691 |
+| kNN | 0.8859 | 0.936 | 0.8859 | 0.8859 | 0.8856 | 0.7686 |
+| Naive Bayes | 0.913 | 0.9451 | 0.9134 | 0.913 | 0.9131 | 0.8246 |
+| Random Forest (Ensemble) | 0.8696 | 0.9314 | 0.8694 | 0.8696 | 0.8694 | 0.7356 |
+| XGBoost (Ensemble) | 0.8587 | 0.9219 | 0.8587 | 0.8587 | 0.8587 | 0.714 |
 
 ---
 
