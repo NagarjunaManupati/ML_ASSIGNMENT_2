@@ -43,7 +43,7 @@ Example:
 
 | ML Model Name | Accuracy | AUC | Precision | Recall | F1 | MCC |
 |--------------|----------|-----|-----------|--------|-------|-----|
-| Logistic Regression | [0.XXXX] | [0.XXXX] | [0.XXXX] | [0.XXXX] | [0.XXXX] | [0.XXXX] |
+| Logistic Regression | 0.8671 | 0.9317 | 0.8672 | 0.8671 | 0.8667 | 0.7306 |
 | Decision Tree | [0.XXXX] | [0.XXXX] | [0.XXXX] | [0.XXXX] | [0.XXXX] | [0.XXXX] |
 | kNN | [0.XXXX] | [0.XXXX] | [0.XXXX] | [0.XXXX] | [0.XXXX] | [0.XXXX] |
 | Naive Bayes | [0.XXXX] | [0.XXXX] | [0.XXXX] | [0.XXXX] | [0.XXXX] | [0.XXXX] |
@@ -56,7 +56,7 @@ Example:
 
 | ML Model Name | Observation about model performance |
 |--------------|-------------------------------------|
-| Logistic Regression | [Your observation: e.g., "Logistic Regression showed moderate performance with an accuracy of X%. It performed well on linearly separable classes but struggled with complex decision boundaries. The model demonstrated good recall but lower precision, indicating more false positives."] |
+| Logistic Regression | Logistic Regression achieved accuracy 0.8671, AUC 0.9317, precision 0.8672, recall 0.8671, F1 0.8667 and MCC 0.7306. The model demonstrates strong discriminative ability (high AUC) with balanced precision and recall, indicating reliable overall performance. |
 | Decision Tree | [Your observation: e.g., "Decision Tree achieved an accuracy of X% with tendency to overfit on training data. The model showed high variance and was sensitive to small changes in the dataset. Performance could be improved with proper pruning."] |
 | kNN | [Your observation: e.g., "K-Nearest Neighbors with k=5 achieved X% accuracy. The model performed well but was computationally expensive for predictions. Performance was sensitive to the choice of k and the distance metric used."] |
 | Naive Bayes | [Your observation: e.g., "Gaussian Naive Bayes showed X% accuracy. Despite the strong independence assumption, it performed reasonably well and was the fastest to train. However, it had lower precision compared to other models."] |
