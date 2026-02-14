@@ -68,12 +68,12 @@ Attribute Information:
 
 | ML Model Name | Observation about model performance |
 |--------------|-------------------------------------|
-| Logistic Regression | Logistic Regression achieved accuracy 0.8671, AUC 0.9317, precision 0.8672, recall 0.8671, F1 0.8667 and MCC 0.7306. The model demonstrates strong discriminative ability (high AUC) with balanced precision and recall, indicating reliable overall performance. |
-| Decision Tree | [Your observation: e.g., "Decision Tree achieved an accuracy of X% with tendency to overfit on training data. The model showed high variance and was sensitive to small changes in the dataset. Performance could be improved with proper pruning."] |
-| kNN | [Your observation: e.g., "K-Nearest Neighbors with k=5 achieved X% accuracy. The model performed well but was computationally expensive for predictions. Performance was sensitive to the choice of k and the distance metric used."] |
-| Naive Bayes | [Your observation: e.g., "Gaussian Naive Bayes showed X% accuracy. Despite the strong independence assumption, it performed reasonably well and was the fastest to train. However, it had lower precision compared to other models."] |
-| Random Forest (Ensemble) | [Your observation: e.g., "Random Forest achieved the second-best performance with X% accuracy and excellent AUC score of X. The ensemble approach reduced overfitting compared to a single decision tree and provided robust predictions with good generalization."] |
-| XGBoost (Ensemble) | [Your observation: e.g., "XGBoost demonstrated the best overall performance with X% accuracy and the highest F1 score of X. The gradient boosting technique effectively handled the dataset complexity and achieved superior results across all metrics including the highest MCC score."] |
+| Logistic Regression | Strong baseline performance with **88.59% accuracy** and high **AUC (0.9297)**, indicating good class separability. Precision, recall, and F1 scores are well balanced, showing stable performance across classes. High MCC (0.7694) suggests reliable predictions, making it a solid interpretable model for medical risk prediction. |
+| Decision Tree | Lowest performer among all models with **78.8% accuracy** and **AUC (0.7813)**, indicating weaker discrimination ability. Although highly interpretable, it may suffer from overfitting and limited generalization. Lower MCC (0.5691) reflects weaker balanced classification performance compared to other models. |
+| kNN | Performs comparably to Logistic Regression with **88.59% accuracy** and strong **AUC (0.936)**. Balanced precision–recall metrics show consistent classification. Being distance-based, performance depends heavily on feature scaling and choice of *k*; current setup provides stable results. |
+| Naive Bayes | **Best overall performer** with **91.3% accuracy**, highest **AUC (0.9451)**, and strongest **MCC (0.8246)**. Despite its feature independence assumption, it generalizes very well on this dataset. Excellent balance across precision, recall, and F1 makes it highly suitable for reliable predictions and real-time deployment. |
+| Random Forest (Ensemble) | Good ensemble performance with **86.96% accuracy** and strong **AUC (0.9314)**. Improves over single Decision Tree by reducing variance and overfitting. Balanced metrics and moderate MCC (0.7356) indicate robust but slightly less optimal performance compared to top models. |
+| XGBoost (Ensemble) | Reasonable performance with **85.87% accuracy** and **AUC (0.9219)**. Although gradient boosting typically performs strongly, here it trails behind Naive Bayes and kNN, possibly due to limited dataset size or hyperparameter tuning. MCC (0.714) indicates acceptable but not best class balance. |
 
 ---
 
