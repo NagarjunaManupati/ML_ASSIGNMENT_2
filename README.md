@@ -98,7 +98,7 @@ ml_assignment_2/
 │   └── label_encoder.pkl          # LabelEncoder for target encoding
 │
 └── data/                           # (Optional) Dataset directory
-    └── your_dataset.csv
+    └── heart.csv
 ```
 
 ---
@@ -261,47 +261,11 @@ The app will open in your default browser at `http://localhost:8501`
 
 ---
 
-## Future Improvements
-
-- Implement hyperparameter tuning using GridSearchCV or RandomizedSearchCV
-- Add feature importance visualization
-- Include ROC curves and PR curves
-- Implement cross-validation for more robust evaluation
-- Add support for custom datasets with automatic preprocessing
-- Include model interpretation tools (SHAP, LIME)
-
----
-
 ## Author
 
-**[Your Name]**  
-M.Tech (AIML/DSE)  
-BITS Pilani - Work Integrated Learning Programme
+**Nagarjuna Manupati**  
+ID: 2025AA052895
+email:2025aa05895@wilp.bits-pilani.ac.in
 
 ---
 
-## Acknowledgments
-
-- BITS Pilani for the assignment guidelines
-- Scikit-learn and XGBoost documentation
-- Streamlit community for deployment resources
-
----
-
-## License
-
-This project is created for academic purposes as part of the Machine Learning course assignment.
-
----
-
-## Contact
-
-For any queries regarding this project:
-- Email: [your.email@example.com]
-- GitHub: [your-github-username]
-
----
-
-**Submission Date**: 15-Feb-2026  
-**Course**: Machine Learning  
-**Assignment**: Assignment 2
