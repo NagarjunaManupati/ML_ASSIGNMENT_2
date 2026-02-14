@@ -68,7 +68,7 @@ Example:
 ## Repository Structure
 
 ```
-ml_assignment2/
+ml_assignment_2/
 │
 ├── app.py                          # Streamlit web application
 ├── requirements.txt                # Python dependencies
