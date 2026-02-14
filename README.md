@@ -9,24 +9,32 @@ This project implements and compares six different machine learning classificati
 ## Dataset Description
 
 ### Dataset Source
-**Dataset Name**: [Your Dataset Name Here]  
-**Source**: [Kaggle/UCI Repository Link]
+**Dataset Name**: Heart Failure Prediction Dataset  
+**Source**: https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction/data
 
 ### Dataset Characteristics
-- **Number of Instances**: [e.g., 1000]
-- **Number of Features**: [e.g., 15]
-- **Target Variable**: [e.g., Class/Label]
-- **Classification Type**: [Binary/Multi-class]
-- **Number of Classes**: [e.g., 2 or 5]
+- **Number of Instances**: 918 patient records
+- **Number of Features**: 12 (11 input features (12 total columns including target))
+- **Target Variable**: HeartDisease (0 = No heart disease, 1 = Heart disease)
+- **Classification Type**: Binary Classification
+- **Number of Classes**: 2 (Heart Disease / No Heart Disease)
 
 ### Features Description
-[Provide a brief description of the key features in your dataset]
+Built by combining multiple heart-disease datasets into one standardized table.Final dataset size: 918 patients with 11 input features + 1 target variable.Mix of clinical measurements, test results, and demographic attributes.
 
-Example:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- ...
-- Target: [Description]
+Attribute Information:
+- Age: age of the patient [years]
+- Sex: sex of the patient [M: Male, F: Female]
+- ChestPainType: chest pain type [TA: Typical Angina, ATA: Atypical Angina, NAP: Non-Anginal Pain, ASY: Asymptomatic]
+- RestingBP: resting blood pressure [mm Hg]
+- Cholesterol: serum cholesterol [mm/dl]
+- FastingBS: fasting blood sugar [1: if FastingBS > 120 mg/dl, 0: otherwise]
+- RestingECG: resting electrocardiogram results [Normal: Normal, ST: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV), LVH: showing probable or definite left ventricular hypertrophy by Estes' criteria]
+- MaxHR: maximum heart rate achieved [Numeric value between 60 and 202]
+- ExerciseAngina: exercise-induced angina [Y: Yes, N: No]
+- Oldpeak: oldpeak = ST [Numeric value measured in depression]
+- ST_Slope: the slope of the peak exercise ST segment [Up: upsloping, Flat: flat, Down: downsloping]
+- Target(HeartDisease): output class [1: heart disease, 0: Normal]
 
 ### Data Preprocessing
 - Handled missing values (if any)
